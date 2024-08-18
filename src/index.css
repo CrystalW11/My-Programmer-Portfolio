@@ -1,0 +1,115 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  color-scheme: light dark;
+  color: black(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: black;
+  color: blueviolet;
+
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 20px;
+  color: white;
+}
+.home-header {
+  color: rebeccapurple;
+}
+
+
+
+p {
+  font-size: 25px;
+}
+
+h1 {
+  color: white;
+  font-size: 65px;
+}
+
+.custom-outline-input {
+  border: 1px solid rebeccapurple;
+  /* Purple border */
+  border-radius: 4px;
+  /* Optional: add rounded corners */
+}
+
+.custom-outline-input:focus {
+  border-color: rebeccapurple;
+  /* Keep purple border color when focused */
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25);
+  /* Purple glow on focus */
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  /* Purple background */
+  border-color: teal;
+  /* Match border color */
+  color: white;
+  /* Text color */
+}
+
+.btn-purple:hover {
+  background-color: #5a32a3;
+  /* Darker purple for hover effect */
+  border-color: #5a32a3;
+  /* Match border color on hover */
+
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.form-label {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form-control custom-outline-input{
+  font-style: italic;
+}
+
+.skills{
+  font-size: 30px;
+  font-weight:600;
+  color: blueviolet;
+}
+
+.image-resize{
+    width: 50%;
+      /* Adjust width as needed */
+      height: 450px;
+      /* Adjust height as needed */
+      /* object-fit: cover; */
+      /* Ensures the image is resized proportionally */
+}
+
+.paragraph{
+  display: flex;
+  margin: auto;
+  width: 1100px;
+}
+
+h4{
+  color: slateblue;
+}
+
+.symbols {
+width: 20px;
+/* border-radius: 45px; */
+}
