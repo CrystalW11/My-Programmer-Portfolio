@@ -86,7 +86,7 @@ const Blog = () => {
           className="image-resize"
           src={DigitalCityGridImage}
           alt="Digital City Grid"
-          style={{ width: "70%", height: "auto" }}
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <br />
