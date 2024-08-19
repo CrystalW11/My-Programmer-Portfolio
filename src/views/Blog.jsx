@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import Nav from "../components/Nav";
+import Nav from "../components/Nav.jsx";
 import CityWithFrequencyWaves from "../assets/CityWithFrequencyWaves.png";
 import DigitalCityGridImage from "../assets/DigitalCityGridImage.png";
 
