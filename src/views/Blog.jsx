@@ -1,8 +1,8 @@
 /** @format */
 import React from "react";
 import Nav from "../components/Nav";
-import CityGridWithBall from "../assets/CityGridWithBall.jpg";
-import digitalCityGridImage from "../assets/digitalCityGridImage.jpg";
+import CityWithFrequencyWaves from "../assets/CityWithFrequencyWaves.png";
+import DigitalCityGridImage from "../assets/DigitalCityGridImage.png";
 
 const Blog = () => {
   const skills = [
@@ -33,8 +33,8 @@ const Blog = () => {
       <h1>Welcome to My Blog!</h1>
       <img
         className="image-resize"
-        src={CityGridWithBall}
-        alt="City Grid with Ball"
+        src={CityWithFrequencyWaves}
+        alt="CityWithFrequencyWaves"
       />
       <hr />
       <h2>Crystal Warmack</h2>
@@ -84,7 +84,7 @@ const Blog = () => {
       <div>
         <img
           className="image-resize"
-          src={digitalCityGridImage}
+          src={DigitalCityGridImage}
           alt="Digital City Grid"
           // style={{ width: "70%", height: "auto" }}
         />

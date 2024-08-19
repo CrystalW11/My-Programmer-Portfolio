@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import GitHubLogo from "../assets/GitHubLogo.jpg"; // Adjust the path if necessary
-import LinkedInSymbol from "../assets/LinkedInSymbol.jpg";
+import GitHubLogo from "../assets/GitHubLogo.png"; // Adjust the path if necessary
+import LinkedInSymbol from "../assets/LinkedInSymbol.png";
 
 const Nav = (props) => {
   const { firstName, lastName } = props;
