@@ -10,7 +10,7 @@ const DisplayAll = (props) => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get("https://my-programmer-portfolio.vercel.app/api/usersFeedbacks")
+      .get("http://localhost:8000/api/api/usersFeedbacks")
       .then((res) => {
         console.log(res.data);
         setUsersFeedbacks(res.data);
@@ -21,9 +21,7 @@ const DisplayAll = (props) => {
   }, []);
   const deleteHandler = (id) => {
     axios
-      .delete(
-        `https://my-programmer-portfolio.vercel.app/api/usersFeedbacks/${id}`
-      )
+      .delete(`http://localhost:8000/api/usersFeedbacks/${id}`)
       .then((res) => {
         navigate("/");
       })
