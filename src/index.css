@@ -91,6 +91,7 @@ h1 {
 }
 
 .image-resize{
+  margin: auto;
     width: 50%;
       /* Adjust width as needed */
       height: 450px;
