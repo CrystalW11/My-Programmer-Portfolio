@@ -92,9 +92,10 @@ h1 {
 
 .image-resize{
   margin: auto;
-    width: 50%;
+  display: flex;
+    width: 80%;
       /* Adjust width as needed */
-      height: 450px;
+      height: 350px;
       /* Adjust height as needed */
       /* object-fit: cover; */
       /* Ensures the image is resized proportionally */
