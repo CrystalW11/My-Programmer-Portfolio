@@ -10,7 +10,7 @@ const DisplayAll = (props) => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/api/usersFeedbacks")
+      .get("http://localhost:8000/api/usersFeedbacks")
       .then((res) => {
         console.log(res.data);
         setUsersFeedbacks(res.data);
@@ -43,7 +43,6 @@ const DisplayAll = (props) => {
               <th className="form-label">Actions</th>
             </tr>
           </thead>
-          <hr />
           <br />
           <tbody>
             {usersFeedbacks.map((usersFeedback) => (
