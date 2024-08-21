@@ -43,6 +43,7 @@ const DisplayAll = (props) => {
               <th className="form-label">Actions</th>
             </tr>
           </thead>
+          <hr />
           <br />
           <tbody>
             {usersFeedbacks.map((usersFeedback) => (
