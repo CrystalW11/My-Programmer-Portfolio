@@ -14,7 +14,7 @@ const Nav = (props) => {
         <br />
         <div className="">
           <a
-            href="https://github.com/CrystalW11/Crystal-s-Technical-Projects.git"
+            href="https://github.com/CrystalW11/My-Programmer-Portfolio.git"
             target="_blank"
             rel="noopener noreferrer">
             <img
