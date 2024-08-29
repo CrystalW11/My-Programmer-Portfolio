@@ -25,7 +25,7 @@ const UsersFeedbackDetails = (props) => {
   const deleteHandler = async (feedbackId) => {
     try {
       await axios.delete(
-        `http://localhost:8000/api/usersFeedbacks/${feedbackId}/details`
+        `http://localhost:8000/api/usersFeedbacks/${feedbackId}`
       );
       navigate("/"); // Navigate to home or another page after deletion
     } catch (err) {
